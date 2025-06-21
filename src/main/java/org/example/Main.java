@@ -18,6 +18,6 @@ public class Main {
         WebDriver driver= new ChromeDriver();
         driver.get("https://www.google.co.in/");
          System.out.println("heyyaa");
-        driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Shamal");
+        driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Ravindra");
     }
 }
