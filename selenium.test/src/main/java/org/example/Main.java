@@ -17,6 +17,7 @@ public class Main {
         WebDriverManager.chromedriver().setup();
         WebDriver driver= new ChromeDriver();
         driver.get("https://www.google.co.in/");
+         System.out.println("heyyaa");
         driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Shamal");
     }
 }
